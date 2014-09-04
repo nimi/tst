@@ -1,0 +1,19 @@
+{
+  "name": "focused-recognition",
+  "version": "2.0.0",
+  "description": "'An application for sending and viewing recognitions and stories'",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://nicholaslmitchell@github.com/nicholaslmitchell/tst.git"
+  },
+  "author": "Nicholas Mitchell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicholaslmitchell/tst/issues"
+  },
+  "homepage": "https://github.com/nicholaslmitchell/tst"
+}
