@@ -618,4 +618,5 @@ module.exports = function(grunt) {
 			'build'
 		]);
 	};
+	
 };
