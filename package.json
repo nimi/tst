@@ -2,18 +2,19 @@
   "name": "focused-recognition",
   "version": "2.0.0",
   "description": "An application for Focused Recogntion",
-  "main": "Gruntfile.js",
+  "main": "server/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server/app.js",
+    "test": "grunt test",
+    "update-webdriver": "node node_modules/grunt-protractor-runner/node_modules/protractor/bin/webdriver-manager update"
+  },
+  "engines": {
+    "node": ">=0.10.0"
   },
   "repository": {
     "type": "git",
     "url": "https://nicholaslmitchell@github.com/nicholaslmitchell/tst.git"
   },
   "author": "Nicholas Mitchell",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/nicholaslmitchell/tst/issues"
-  },
-  "homepage": "https://github.com/nicholaslmitchell/tst"
+  "private": true
 }
