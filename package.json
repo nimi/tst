@@ -1,0 +1,68 @@
+{
+  "name": "focused-recognition",
+  "version": "2.0.0",
+  "description": "Focused Recogntion - Angular/Express Application",
+  "author": [
+    "Nicholas Mitchell <Nicholas.Mitchell@searshc.com>"
+  ],
+  "main": "server/app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "test": "grunt test",
+    "update-webdriver": "node node_modules/grunt-protractor-runner/node_modules/protractor/bin/webdriver-manager update"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.searshc.com/SearsLabs/focused-recognition.git"
+  },
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.7.0",
+    "composable-middleware": "^0.3.0",
+    "compression": "~1.0.1",
+    "cookie-parser": "~1.0.1",
+    "errorhandler": "~1.0.0",
+    "express": "^4.8.8",
+    "express-jwt": "^0.1.3",
+    "express-session": "~1.0.2",
+    "jsonwebtoken": "^0.3.0",
+    "lodash": "~2.4.1",
+    "method-override": "~1.0.0",
+    "morgan": "~1.0.0",
+    "passport": "~0.2.0",
+    "passport-local": "~0.1.6"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-concurrent": "^1.0.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-env": "~0.4.1",
+    "grunt-node-inspector": "~0.1.5",
+    "grunt-nodemon": "~0.2.0",
+    "grunt-karma": "~0.8.2",
+    "grunt-build-control": "DaftMonk/grunt-build-control",
+    "grunt-mocha-test": "~0.10.2",
+    "jit-grunt": "^0.5.0",
+    "time-grunt": "~0.3.1",
+    "grunt-express-server": "~0.4.17",
+    "grunt-open": "~0.2.3",
+    "open": "~0.0.4",
+    "jshint-stylish": "~0.1.5",
+    "requirejs": "~2.1.11",
+    "karma-jasmine": "~0.1.5",
+    "karma-requirejs": "~0.2.1",
+    "karma-firefox-launcher": "~0.1.3",
+    "karma-script-launcher": "~0.1.0",
+    "karma-html2js-preprocessor": "~0.1.0",
+    "karma-chrome-launcher": "~0.1.3",
+    "karma-phantomjs-launcher": "~0.1.4",
+    "karma": "~0.12.9",
+    "karma-ng-html2js-preprocessor": "~0.1.0",
+    "supertest": "~0.11.0",
+    "should": "~3.3.1"
+  }
+}
