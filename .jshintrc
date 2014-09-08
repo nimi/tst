@@ -1,0 +1,38 @@
+{
+	node: true,
+	browser: true,
+	curly: false,
+	eqeqeq: true,
+	immed: true,
+	latedef: true,
+	newcap: true,
+	quotmark: "double",
+	undef: true,
+	unused: false,
+	strict: true,
+	smarttabs: false,
+	globals: {
+	angular: true
+},
+	predef: [
+		"define",
+		"require",
+		"exports",
+		"module",
+		"describe",
+		"ddescribe",
+		"xdescribe",
+		"before",
+		"beforeEach",
+		"after",
+		"afterEach",
+		"it",
+		"iit",
+		"xit",
+		"inject",
+		"expect",
+		"spyOn"
+	],
+	indent: 4,
+	devel: true
+}
